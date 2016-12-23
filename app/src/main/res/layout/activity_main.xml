@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.homin.p6.CrossFadeSlidingPaneLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sliding_pane_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorTransparent"
+        android:clickable="false">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@color/colorBlue"
+            android:text="full"/>
+        <TextView
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPurple"
+            android:text="partial"/>
+    </FrameLayout>
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginRight="55dp"
+        android:background="@color/colorMint"
+        android:text="pane_2"/>
+</com.example.homin.p6.CrossFadeSlidingPaneLayout>
